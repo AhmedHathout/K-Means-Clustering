@@ -183,7 +183,8 @@ def main():
     x_values = [i for i in range(10)]
 
     plt.barh(x_values, counts, align='center', alpha=0.5)
-    plt.show()
+    # plt.show()
+    plt.savefig("Counts.jpg")
     print("finished")
 if __name__ == '__main__':
     main()
